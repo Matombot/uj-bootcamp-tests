@@ -1,7 +1,8 @@
 describe('this test should check if regno isFromBellville' , function(){
-    it('should return true if it is CY else false' , function(){
-    assert.equal(false,isFromBellville("Ci"))
+    it('should return true if isFromBellville, ("CY") ' , function(){
     assert.equal(true,isFromBellville("CY"))
-
+    });
+    it('should return false if isFromBellville("Ci")' , function(){
+        assert.equal(false,isFromBellville("Ci"))
     });
 });
