@@ -1,0 +1,101 @@
+body {
+    background-color: plum;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+  h1{
+      text-align: center;
+  }
+  table {
+    border-collapse: collapse;
+}
+th {
+    Color:black;
+}
+th, td {
+    width:150px;
+    text-align:center;
+    border:1px solid black;
+    padding:5px;
+
+  
+}
+.geeks {
+    border-right:hidden;
+}
+.gfg {
+    border-collapse:separate;
+    border-spacing:0 15px;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+}
+.destination, .queue, .fare{
+    display: grid;
+    margin: auto;
+    height: auto;
+    padding: 0.2em;
+    width: 150px;
+}
+.para, .another{
+    text-align: center;
+}
+  
+.btn-dark {
+    background-color: #4c0a9c;
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.row{
+    text-align: center;
+} 
+  
+.btn-dark:hover {
+    background: wheat;
+    color: black;
+}
+
+#display{
+    position: fixed;
+    margin-top: 14%;
+    width: 80%;
+  
+    
+}
+
+.errorMessage{
+    margin-top: 12%;
+    position: fixed;
+    color: crimson;
+    font-weight: bold;
+}
+
+.input-group{
+    position: fixed;
+    width: 500px;
+    margin-left: 18%;
+    padding-top: 0.5rem;
+}
+
+.input-group-text{
+    background-color: rgb(27, 138, 212);
+    font-weight: bold;
+    color: white;
+}
+
+#addBtn{
+    background-color: rgb(201, 109, 164);
+    color: white;
+
+}
+.successful{
+    background-color: plum;
+}
